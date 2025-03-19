@@ -77,7 +77,7 @@ function ValidarMovimento() {
         return false;
     }
     if($("#empresa").val() == ''){
-        alert("Selecione a DATA DO MOVIMENTO! (Obrigatório)");
+        alert("Selecione a EMPRESA DO MOVIMENTO! (Obrigatório)");
         $("#empresa").focus();
         return false;
     }

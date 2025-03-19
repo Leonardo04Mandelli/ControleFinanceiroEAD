@@ -31,7 +31,8 @@ include_once '_head.php';
                 <div class="row">
                     <div class="col-md-12">
                         <h2>Página Inicial</h2>
-                        <h5>Aqui você acompanha todos os números de uma forma geral </h5>
+                        <h5>Seja bem vindo(a) <strong><?= UtilDAO::NomeLogado(); ?></strong>, todos os Módulos de trabalho você pode acessar no MENU lateral.</h5>
+                        <h5>Logo abaixo você acompanha todos os números de uma forma geral </h5>
 
                         <?php include_once '_msg.php'; ?>
 
